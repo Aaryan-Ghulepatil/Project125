@@ -1,0 +1,36 @@
+.head {
+    width:100%;
+    height:120px;
+    background-color: rgb(32, 32, 139);
+    color:wheat;
+    font-family: fantasy;
+    padding-top: 20px;
+    font-size:40px;
+}
+
+.head h4{
+    font-size:18px;
+
+}
+
+.head:hover{
+    color:rgb(136, 74, 74);
+    text-shadow: 3px 3px 5px wheat;
+}
+
+.footer{
+   position:fixed;
+   width:100%;
+   line-height: 3; 
+   bottom:0;
+   background-color:grey;
+   font-family: 'Anton', sans-serif;
+   letter-spacing: 2px;
+   font-size:20px;
+   font-weight:bold;
+}
+
+canvas{
+    border:3px solid white;
+    border-radius: 20px;
+}
